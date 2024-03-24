@@ -7,4 +7,5 @@ Then, these objects are converted into collision objects to allow tiago a smooth
 Finally, Tiago identifies the cylinders positions and will place the object on the correct table.
 
 The code and report for the project are available in this repo.
-The video with a demo of the code can be found at: https://youtu.be/jsoZffZYnI0
+
+The video with a demo of the code running can be found at: https://youtu.be/jsoZffZYnI0
