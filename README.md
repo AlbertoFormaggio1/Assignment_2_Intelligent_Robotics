@@ -1,4 +1,4 @@
-# Assignment_2_Intelligent_Robotics
+# Assignment 2 Intelligent Robotics
 
 The code available is responsible for moving Tiago in the environment.
 Using the AprilTag library, once it has positioned in front of the table, the robot can detect the position and orientation of the objects on the table.
