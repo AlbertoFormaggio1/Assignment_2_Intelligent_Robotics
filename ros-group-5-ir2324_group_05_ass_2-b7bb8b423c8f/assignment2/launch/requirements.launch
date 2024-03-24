@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name = "world_name" default="ias_lab_room_full_tables"/>
+
+    <include file="$(find tiago_iaslab_simulation)/launch/start_simulation.launch">
+        <arg name="world_name" value="$(arg world_name)"/>
+    </include>
+
+    <include file="$(find tiago_iaslab_simulation)/launch/apriltag.launch"></include>
+    
+    <include file="$(find tiago_iaslab_simulation)/launch/navigation.launch"></include>
+
+    <!--<node name = "human_node" pkg="tiago_iaslab_simulation" type="human_node" output="screen"/>-->
+</launch>

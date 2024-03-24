@@ -1,0 +1,22 @@
+#goal
+float64 x
+float64 y
+float64 th
+
+---
+#result
+
+int32 num_objects
+float32[] object_positions_x_glob
+float32[] object_positions_y_glob
+float32[] object_positions_x_rob
+float32[] object_positions_y_rob
+
+---
+#feedback
+
+float64 x
+float64 y
+float64 th
+
+int32 status

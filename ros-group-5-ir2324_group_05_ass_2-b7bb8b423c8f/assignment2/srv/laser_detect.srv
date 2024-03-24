@@ -1,0 +1,6 @@
+# Request
+float32 min_radius
+float32 max_radius
+---
+# Response
+geometry_msgs/Point[] cylinder_poses

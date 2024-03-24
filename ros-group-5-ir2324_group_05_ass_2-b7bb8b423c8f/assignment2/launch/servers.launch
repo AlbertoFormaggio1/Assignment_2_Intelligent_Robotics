@@ -1,0 +1,7 @@
+<launch>
+    <node name = "server" pkg="assignment2" type="server"/>
+    <node name = "move_head_server" pkg="assignment2" type="mh_server" output="screen"/>
+    <node name = "human_node" pkg="tiago_iaslab_simulation" type="human_node"/>
+    <node name = "find_place_pose" pkg="assignment2" type="find_place_pose" output="screen"/>
+    <node name = "laser_detector" pkg="assignment2" type="laser_detector" output="screen"/>
+</launch>

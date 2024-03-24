@@ -1,0 +1,15 @@
+# goal
+int32 id    # Id of the object to pick
+int32[] ids   # Ids of the objects found by the april tag
+geometry_msgs/Pose[] object_poses   # poses of the objects on the table
+bool pickplace  # true if the robot should pick, false for place
+
+# Used only if pickplace = false
+float32 cylinder_radius # Radius of the cylinder where the robot should place
+---
+# result
+bool success    # If the action had success
+
+---
+# feedback
+int32 status     # The current status of execution of the robot task

@@ -1,0 +1,5 @@
+int32 mode_ud  # 1 if head up, 0 if head down
+int32 mode_lr  # 1 if left, 0 if right, 2 if center (3 l, 2 r)
+geometry_msgs/Point point_to_look
+---
+bool state      # True if the head movement was successful

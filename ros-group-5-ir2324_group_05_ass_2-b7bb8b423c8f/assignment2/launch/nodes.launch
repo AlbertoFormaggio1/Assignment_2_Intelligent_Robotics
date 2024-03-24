@@ -1,0 +1,5 @@
+<launch>
+    <node name = "node_a" pkg="assignment2" type="node_a" output="screen"/>
+    <node name = "node_b" pkg="assignment2" type="node_b" output="screen"/>
+    <node name = "node_c" pkg="assignment2" type="node_c" output="screen"/>
+</launch>

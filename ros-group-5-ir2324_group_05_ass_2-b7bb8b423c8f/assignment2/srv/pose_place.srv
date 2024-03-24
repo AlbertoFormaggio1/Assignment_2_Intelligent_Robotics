@@ -1,0 +1,6 @@
+#Request
+int32 id
+geometry_msgs/Point[] pillars_poses
+---
+#Response
+geometry_msgs/Point pose_place
